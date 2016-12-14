@@ -1,0 +1,1006 @@
+@charset "UTF-8";
+header {
+    z-index: 1000;
+}
+
+/*.index-header {
+    margin-top: -0.1em;
+}*/
+
+header.top .logo img {
+    width: 90%;
+}
+
+header.top .logo-center img {
+    width: 55%;
+    margin: 0 auto;
+    display: block;
+}
+
+span.nav-button,
+span.close-button {
+    color: #fff;
+    line-height: 60px;
+}
+
+.logo {
+    padding: 0 !important;
+}
+
+#header .logo img {
+    width: 59%;
+    height: 4.6em;
+}
+
+.app-logo img {
+    width: 12%;
+    display: block;
+    margin: 0 auto;
+}
+
+.logo-info .logo {
+    width: 90%;
+}
+
+.logo-info .vr {
+    height: 6em;
+    margin: 0 auto;
+    margin-top: -15%;
+    background-color: #979797;
+    width: 2px;
+    opacity: .5;
+}
+
+.logo-info .info p {
+    margin-top: -1%;
+}
+
+
+/*-------------------------------------------------------------*/
+
+
+/*===========================================*/
+
+
+/*                               1. Banner Styles                                          */
+
+
+/*===========================================*/
+
+
+/*-------------------------------------------------------------*/
+
+.about-banner-mysquar {
+    margin-top: 100px;
+}
+
+#banner {
+    min-height: 30em;
+    margin-top: -2px!important;
+}
+
+.bg {
+    position: relative;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: inherit;
+}
+
+.bg-content {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    padding: 4em 0;
+}
+
+.b-space {
+    margin-top: 8%;
+}
+
+.b-space-mychat {
+    margin-top: 4%;
+}
+
+.warning {
+    display: none;
+}
+
+.content-banner img {
+    width: 25%;
+    margin-bottom: 40px;
+    margin-left: 38%;
+}
+
+.title-banner,
+.slug-banner {
+    font-weight: lighter;
+}
+
+.title-banner {
+    font-size: 35px;
+}
+
+.slug-banner {
+    font-size: 23px;
+}
+
+
+/*===========================================*/
+
+
+/*  1.1 Scroll-down Button  */
+
+
+/*===========================================*/
+
+.scroll-down {
+    color: #979797;
+    position: absolute;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    display: block;
+    margin: 0 auto;
+    left: 49%;
+    margin-top: 6em;
+    text-decoration: none;
+}
+
+.scroll-down i {
+    font-size: 2em;
+}
+
+.scroll-down:hover {
+    color: #238bf6;
+}
+
+.scroll-down.white {
+    color: #ffffff;
+}
+
+.scroll-down.white:hover {
+    color: #fedd00!important;
+}
+
+.scroll-down-mobile {
+    display: none;
+}
+
+
+/*===========================================*/
+
+
+/*  1.2 Background Image  */
+
+
+/*===========================================*/
+
+.parallax-window {
+    min-height: 30em;
+    height: inherit;
+}
+
+#banner .iphone-right img {
+    margin-top: -15%;
+    max-height: 40em;
+}
+
+
+/*===========================================*/
+
+
+/*  1.3 Gradient & Overlay  */
+
+
+/*===========================================*/
+
+#banner .gradient:after {
+    width: 100%;
+    height: inherit;
+    content: '';
+    display: block;
+    background-image: -webkit-linear-gradient(90deg, #0e66c0 0%, #1979db 25%, #238bf6 100%);
+    background-image: -ms-linear-gradient(90deg, #0e66c0 0%, #1979db 25%, #238bf6 100%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    opacity: .95;
+}
+
+.overlay:after {
+    width: 100%;
+    height: inherit;
+    content: '';
+    display: block;
+    background-color: #111111;
+    opacity: .6;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+}
+
+
+/*===========================================*/
+
+
+/*  1.4 Language Tab  */
+
+
+/*===========================================*/
+
+.language-tab p {
+    margin-right: 3em;
+    margin-top: -2.8em;
+}
+
+.language-tab a {
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: lighter;
+}
+
+.language-tab a:hover {
+    color: #fedd00;
+}
+
+.selected {
+    color: #fedd00!important;
+}
+
+.other-language-tab {
+    margin-top: 2.5em;
+}
+
+.other-language-tab p {
+    margin-right: 3em!important;
+    margin-top: -8.25em!important
+}
+
+
+/*===========================================*/
+
+
+/*  1.4 Social Tab  */
+
+
+/*===========================================*/
+
+.social-tab img {
+    width: 5%;
+    margin-top: -2.3em;
+}
+
+.social-icon {
+    margin-left: 28%;
+}
+
+.social-icon li {
+    list-style: none;
+    float: left;
+    padding-left: 30%;
+    margin-top: 5%;
+}
+
+.social-icon li img {
+    width: 80%!important;
+}
+
+
+/*                               2. Header Styles                                          */
+
+
+/*===========================================*/
+
+
+/*-------------------------------------------------------------*/
+
+#header {
+    /*padding: 0.3em 0;*/
+    background-color: #2e2e2e;
+    box-shadow: 0px 40px 80px 0px rgba(0, 0, 0, 0.07);
+    width: 100%;
+}
+
+/*===========================================*/
+
+
+/*  2.1 Navigation  */
+
+
+/*===========================================*/
+
+nav.main {
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+nav.main ul {
+    display: block;
+    text-align: right;
+    margin-bottom: 0;
+    margin-right: 12%;
+}
+
+nav.main li {
+    line-height: 60px;
+    display: inline;
+    list-style: none;
+    padding-right: 3em;
+}
+
+nav.main a {
+    font-size: 1.25em;
+    text-decoration: none;
+    font-weight: 400;
+    color: #979797;
+    position: relative;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+nav.main a:after, nav.main ul li a.active:after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: -17px;
+    left: 0%;
+    width: 0%;
+    margin-left: 50%;
+    height: 2px;
+    background-color: #fedd00;
+    -webkit-transform-origin: center;
+    -ms-transform-origin: center;
+    transform-origin: center;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+nav.main a:hover {
+    color: #fedd00;
+}
+
+nav.main ul li a.active {
+    color: #fedd00!important;
+}
+
+nav.main a:hover:after {
+    width: 130%;
+    left: -15%;
+    margin-left: 0;
+}
+
+
+/*===========================================*/
+
+
+/*  2.2 Responsive Navigation   */
+
+
+/*===========================================*/
+
+span.nav-button,
+span.close-button {
+    font-size: 1.5em;
+    text-align: right;
+    display: none;
+}
+
+
+/*-------------------------------------------------------------*/
+
+
+/*===========================================*/
+
+
+/*                               3. About Styles                                             */
+
+
+/*===========================================*/
+
+
+/*-------------------------------------------------------------*/
+
+.about {
+    text-align: center;
+}
+
+.about h4 {
+    margin-top: 1em;
+    font-family: 'Rubik';
+    color: #9b26b6;
+}
+
+.about-slug {
+    width: 43%;
+    padding-top: 20px;
+    margin: auto;
+    font-weight: lighter;
+    color: #979797;
+    line-height: 38px;
+    font-size: 24px;
+}
+
+.about-banner-1 {
+    margin-top: 100px;
+}
+
+.about-content-left,
+.about-content-right {
+    padding: 0!important;
+    margin-top: -1px;
+}
+
+.about-right-box {
+    margin-left: 70px;
+    margin-top: 80px;
+}
+
+.about-right-box h1 {
+    color: #7625a5;
+    font-weight: lighter;
+    font-size: 50px;
+    width: 95%;
+}
+
+.about-right-box p {
+    font-weight: lighter;
+    margin-top: 80px;
+    font-size: 17px;
+    width: 85%;
+}
+
+.about-right-box h3 {
+    font-weight: bold;
+    line-height: 35px;
+    font-size: 23px;
+}
+
+.feature-content {
+    margin-top: 105px;
+}
+
+.feature-1 {
+    margin: auto;
+}
+
+.feature-1 a:hover {
+    text-decoration: none;
+}
+
+.feature-1 img {
+    margin-bottom: 30px;
+    width: 80%;
+    height: auto;
+    margin-left: 12%;
+}
+
+.title-app,
+.slug-app,
+.descript-app {
+    text-align: center;
+}
+
+.title-app {
+    font-size: 32px;
+    color: #7625a5;
+    font-weight: 500;
+}
+
+.slug-app {
+    font-size: 35px;
+    font-weight: lighter;
+    color: #4f4f4f;
+    line-height: 1.5em;
+}
+
+.descript-app {
+    font-weight: lighter;
+    text-align: justify;
+    color: #979797;
+    width: 88%;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+.feature-logo {
+    width: 7em;
+    height: auto;
+}
+
+.feature-title {
+    color: #9b26b6!important;
+}
+
+.feature-content {
+    line-height: 2.5em;
+}
+
+.link-beta {
+    margin-top: 20px;
+}
+
+.link-beta a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: #e67e22;
+}
+
+.link-beta a:hover {
+    color: inherit;
+    text-decoration: underline;
+}
+
+#about {
+    margin-top: 0;
+    padding-top: 9.412em;
+}
+
+#about .content {
+    margin-top: 7em;
+}
+
+
+/*-------------------------------------------------------------*/
+
+
+/*===========================================*/
+
+
+/*                               4. Features Styles                                        */
+
+
+/*===========================================*/
+
+
+/*-------------------------------------------------------------*/
+
+.features {
+    text-align: center;
+}
+
+
+/*===========================================*/
+
+
+/*                                      9. Footer Styles                                     */
+
+
+/*===========================================*/
+
+
+/*-------------------------------------------------------------*/
+
+footer {
+    width: 100%;
+    height: 450px;
+    margin: auto;
+    background: url('../img/mysquar/bg-footer.jpg') repeat;
+    padding-bottom: 50px;
+}
+
+.footer-box-left > img {
+    width: 20%;
+    margin-top: 95px;
+    margin-right: 86px;
+}
+
+.footer-box-left p {
+    width: 60%;
+    text-align: center;
+    margin-top: 30px;
+    margin-right: 10px;
+}
+
+.footer-box-right-content ul {
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.footer-box-right-content ul li {
+    list-style: none;
+    float: left;
+    margin-right: 20px;
+}
+
+.footer-box-right-content ul li a {
+    color: #979797;
+}
+
+.address-box {
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.address-box p {
+    line-height: 1.2em!important
+}
+
+.address {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.social a:hover,
+.social .scroll-top a:hover {
+    color: #238bf6;
+}
+
+.scroll-top {
+    margin-top: .5em;
+}
+
+.scroll-top a {
+    font-size: 2em;
+    color: #979797;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    text-align: right;
+    display: block;
+    width: auto;
+}
+
+.scroll-top a:hover {
+    color: #238bf6;
+}
+
+
+/*===========================================*/
+
+
+/*===========================================*/
+
+
+/*  9.3 Transparent Styles    */
+
+
+/*===========================================*/
+
+footer.transparent .social a,
+footer.transparent .scroll-top a {
+    color: #ffffff !important;
+}
+
+footer.transparent .social a:hover,
+footer.transparent .scroll-top a:hover {
+    color: #ffffff;
+}
+
+
+/*-------------------------------------------------------------*/
+
+
+/*===========================================*/
+
+
+/*                                       12. My Apps                                    */
+
+
+/*===========================================*/
+
+
+/*-------------------------------------------------------------*/
+
+.b-space-myapps {
+    margin-top: 0;
+}
+
+.content-banner-myapps img {
+    width: 100%;
+    margin: auto;
+}
+
+.content-banner-myapps p {
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 50px
+}
+
+.scroll-down-myapps {
+    margin-top: 2em;
+}
+
+.other-header {
+    background-color: #fedd00!important;
+}
+
+.other-feature-content {
+    font-size: 1em;
+    line-height: 2.3em;
+}
+
+.about-kyaung {
+    margin-left: 80px;
+    margin-top: 30px;
+}
+
+.about-kyaung h6 {
+    color: #944cbd;
+    margin-top: 100px;
+    font-size: 17px;
+}
+
+.about-kyaung p {
+    margin-top: 0px;
+    width: 100%;
+    color: #9c9c9c;
+}
+
+.learn-more {
+    color: inherit;
+    font-size: 17px;
+    font-family: 'Rubik';
+    line-height: 1.75em;
+}
+
+.mychat-description {
+    margin-top: 50px!important;
+}
+
+.feature-kyaung {
+    margin-top: 20px;
+}
+
+.feature-kyaung h6 {
+    font-size: 17px;
+    color: #9c9c9c;
+}
+
+.feature-kyaung ul li {
+    list-style: none;
+    color: #9c9c9c;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 17px;
+    font-weight: lighter;
+}
+
+.download-button {
+    width: 140px;
+    height: 3em;
+    border: none;
+    border-radius: 7px;
+    color: #fff;
+    margin-top: 30px;
+    background: #efbd1c;
+    font-size: 16px;
+}
+
+.download-button-game {
+    width: 100%;
+    height: 3em;
+}
+
+.about-myflip {
+    margin-left: 0;
+    margin-right: 80px;
+}
+
+.about-img-myflip img {
+    margin-bottom: 20px;
+}
+
+.download-icon-mychat {
+    width: 100%!important;
+    float: none!important;
+    margin-left: -10px;
+}
+
+
+/*-------------------------------------------------------------*/
+
+
+/*===========================================*/
+
+
+/*                                       12. My Chat                                    */
+
+
+/*===========================================*/
+
+
+/*-------------------------------------------------------------*/
+
+.content-banner-mychat-right img {
+    width: 40%;
+}
+
+.logo-mychat {
+    width: 20%!important;
+}
+
+.content-banner-mychat-left img {
+    width: 35%;
+    margin-top: 20px;
+}
+
+.content-banner-mychat-left p {
+    color: #fff;
+    font-weight: lighter;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.scroll-down-mychat {
+    margin-top: 0em;
+}
+
+.mychat-img img {
+    max-width: 49%;
+}
+
+.mychat-feature-content {
+    font-size: 1.5em!important;
+}
+
+.mychat-learn-more {
+    color: #000 0.9;
+    font-size: 1.5em
+}
+
+.mychat-about img {
+    width: 80%;
+}
+
+.about-content-left-mychat {
+    margin-bottom: 50px;
+}
+
+.about-content-mychat {
+    margin-top: 100px;
+    /*margin-bottom: 100px;*/
+}
+
+.about-content-mychat:first-child {
+    margin-top: 0;
+}
+
+.about-content-right-mychat {
+    margin-left: 80px;
+    margin-top: 50px;
+}
+
+.about-content-right-mychat p,
+.about-left-box p {
+    width: 90%;
+    margin-top: 80px;
+    font-size: 24px;
+}
+
+.about-left-box {
+    margin-left: 0;
+    margin-top: 50px;
+}
+
+.feature-mychat img {
+    width: 30%;
+    margin-left: 35%;
+}
+
+.feature-mychat p {
+    text-align: center;
+}
+
+.connect-icon img {
+    width: 22%;
+}
+
+/*.product-title {
+    font-family: 'Roboto';
+}*/
+
+.product-description {
+    margin-top: 30px!important
+}
+
+.product-link {
+    font-weight: bold;
+    color: #000;
+    font-size: 17px;
+    margin-top: 20px;
+}
+
+.one-screen-mockup {
+    width: 71%;
+}
+
+.mysocial-image {
+    float: right;
+}
+
+.horizontal-mockup {
+    margin-top: 40px;
+    width: 110%
+}
+
+
+/*----------- Download --------------*/
+
+#download {
+    padding-bottom: 50px;
+}
+
+.download-content h1 {
+    text-align: center;
+    font-weight: lighter;
+    font-size: 40px;
+    color: #9c9c9c;
+}
+
+.google-play-download-icon,
+.apk-download-icon {
+    width: 35%;
+}
+
+.google-play-download-icon {
+    /*float: right;*/
+    margin: auto;
+}
+
+#gp-img {
+    margin-top: 30px!important;
+}
+
+.apk-download-icon {
+    float: left;
+}
+
+.google-play-download-icon img,
+.apk-download-icon img {
+    margin-top: 30px;
+    width: 100%;
+}
+
+
+/*-------------------------------------------------------------*/
+
+
+/*===========================================*/
+
+
+/*                                       Community Standards                                    */
+
+
+/*===========================================*/
+
+
+/*-------------------------------------------------------------*/
+
+.bg-image-community {
+    background: #1e3f5c;
+}
+
+.community-title {
+    font-family: "Open Sans", Helvetica, Arial, 'lucida grande', tahoma, verdana, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-top: 120px;
+}
+
+.community-standards {
+    padding-top: 4em!important;
+}
+
+.community-content {
+    margin-top: 0!important;
+}
+
+.community-text p {
+    width: 100%;
+    font-weight: normal;
+    color: #000;
+    margin-top: 0!important
+}
+
+.community-note {
+    font-size: 20px!important;
+    font-weight: bold!important;
+}

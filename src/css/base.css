@@ -1,0 +1,795 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0;
+    font-family:'Rubik', 'Zawgyi-One', sans-serif;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+}
+
+@font-face {
+    font-family: 'Zawgyi-One';
+    src: url('../fonts/Zawgyi-One.eot');
+    src: url('../fonts/Zawgyi-One.svg') format('svg'),
+         url('../fonts/Zawgyi-One.ttf') format('truetype'),
+         url('../fonts/Zawgyi-One.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'NotoSans';
+    src: url('../fonts/NotoSans-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('../fonts/Rubik-Regular.ttf') format('truetype');
+    font-style: normal;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+a,
+a:active {
+    outline: none;
+}
+
+
+/*-------------------------------------------------------------*/
+
+
+/*===========================================*/
+
+
+/*                               1. Typography Styles                                 */
+
+
+/*===========================================*/
+
+
+/*-------------------------------------------------------------*/
+
+
+/*===========================================*/
+
+
+/*  1.1 Typography  */
+
+
+/*===========================================*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 400;
+    color: #4f4f4f;
+}
+
+h1 {
+    font-size: 2.647em;
+}
+
+h2 {
+    font-size: 2.118em;
+}
+
+h3 {
+    font-size: 1.765em;
+}
+
+h4 {
+    font-size: 1.529em;
+}
+
+h5 {
+    font-size: 1.294em;
+}
+
+h6 {
+    font-size: 1.118em;
+}
+
+p {
+    font-size: 1.24em;
+    line-height: 2.118em;
+    margin-top: .75em;
+    color: #979797;
+}
+
+b {
+    font-weight: 500;
+    color: #4f4f4f;
+}
+
+b.highlight {
+    font-weight: 500;
+    color: #238bf6;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.light {
+    font-weight: 300;
+}
+
+.white {
+    color: #ffffff !important;
+}
+
+.blue {
+    color: #238bf6 !important;
+}
+
+.center {
+    text-align: center;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+
+/*===========================================*/
+
+
+/*  1.2 Heading Styles  */
+
+
+/*===========================================*/
+
+.heading {
+    text-align: center;
+}
+
+.heading h2 {
+    font-size: 40px;
+    line-height: 1.25em;
+    min-width: 320px;
+    margin: 0 auto;
+    font-weight: lighter;
+    color: #4f4f4f;
+    width: 70%;
+    margin-bottom: 80px;
+}
+
+.heading.type-1 h6 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #9b26b6;
+    margin-bottom: .75em;
+    letter-spacing: 5px;
+}
+
+/*.heading.type-1::after {
+    height: 2px;
+    width: 50px;
+    background-color: #9b26b6;
+    margin: 1.8em auto 0;
+    content: '';
+    display: block;
+}*/
+
+.heading.type-2 h6 {
+    text-transform: uppercase;
+    color: #238bf6;
+    letter-spacing: .6em;
+    font-size: 1.059em;
+    font-weight: 500;
+    margin-bottom: .75em;
+}
+
+.heading.type-2 h5 {
+    color: #979797;
+    max-width: 30%;
+    min-width: 310px;
+    font-size: 1.412em;
+    line-height: 1.6em;
+    margin: .75em auto 0;
+}
+
+.heading.type-2.white h6,
+.heading.type-2.white h5,
+.heading.type-2.white h2,
+.heading.type-2.white h6.blue-cap,
+.heading.type-1.white h6,
+.heading.type-1.white h5,
+.heading.type-1.white h2,
+.heading.type-1.white h6.blue-cap {
+    color: #ffffff;
+}
+
+.heading.type-2.white:after,
+.heading.type-1.white:after {
+    background-color: #ffffff;
+}
+
+h5.light {
+    color: #979797;
+    font-size: 1.412em;
+    line-height: 1.6em;
+    margin: .75em auto 0;
+    font-weight: 300;
+    font-family: 'Rubik';
+}
+
+h2.light {
+    color: #979797;
+    text-align: center;
+    line-height: 1.6em;
+    margin: .75em auto 0;
+    font-weight: 300;
+    font-family: 'Rubik';
+}
+
+h1.pop {
+    font-size: 2.3em;
+    line-height: 1.25em;
+    font-family: 'Rubik';
+}
+
+h1.text-gradient {
+    background: -webkit-linear-gradient(90deg, #9b26b6 0%, #9b26b6 100%);
+    background: -ms-linear-gradient(90deg, #9b26b6 0%, #9b26b6 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    color: #238bf6;
+}
+
+h3.info {
+    line-height: 1.5em;
+    text-align: center;
+}
+
+h6.blue-cap {
+    text-transform: uppercase;
+    font-size: 1.1em;
+    letter-spacing: 2px;
+    font-weight: 500;
+    color: #238bf6;
+}
+
+i.large {
+    font-size: 7.375em;
+    color: #4f4f4f;
+}
+
+
+/*-------------------------------------------------------------*/
+
+
+/*===========================================*/
+
+
+/*                               2. Button & Link Styles                             */
+
+
+/*===========================================*/
+
+
+/*-------------------------------------------------------------*/
+
+
+/*===========================================*/
+
+
+/*  2.1 Button Styles */
+
+
+/*===========================================*/
+
+a.button {
+    display: block;
+    text-align: center;
+    text-transform: capitalize;
+    background-color: #238bf6;
+    color: #ffffff;
+    max-width: 11.5em;
+    min-width: 10em;
+    font-size: 1em;
+    letter-spacing: .5px;
+    outline: none;
+    border: none;
+    padding: 0.5em 2em;
+    border-radius: 1.5em;
+    -webkit-transition: all 0.6s ease;
+    transition: all 0.6s ease;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+a.button:hover {
+    box-shadow: 0px 0px 60.9px 9.1px rgba(0, 0, 0, 0.1);
+}
+
+a.button.white {
+    color: #4f4f4f !important;
+    background-color: #ffffff;
+}
+
+a.button.center {
+    margin: 0 auto;
+}
+
+a.button.highlight {
+    box-shadow: 0px 0px 60.9px 9.1px rgba(0, 0, 0, 0.1);
+}
+
+
+/*===========================================*/
+
+
+/*  2.2 Link Styles   */
+
+
+/*===========================================*/
+
+a.link {
+    color: #979797;
+    font-size: 1em;
+    font-weight: 400;
+    text-decoration: none;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    text-align: center;
+    padding: 0 3px;
+    display: inline !important;
+}
+
+
+/*a.link:after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  background-color: #238bf6;
+  width: 0%;
+  height: 2px;
+  margin-top: .5em;
+  -webkit-transition: all 0.3s ease;
+          transition: all 0.3s ease;
+}*/
+
+a.link:hover {
+    color: #4f4f4f;
+}
+
+a.link:hover:after {
+    width: 100%;
+}
+
+a.link.white {
+    color: #ffffff;
+}
+
+a.link.white:hover {
+    color: #ffffff;
+}
+
+a.link.white:after {
+    background-color: #ffffff;
+}
+
+
+/*===========================================*/
+
+
+/*  2.3 Download Button Styles  */
+
+
+/*===========================================*/
+
+.download-cta {
+    color: #979797;
+    display: table;
+    width: 100%;
+}
+
+.download-cta a.download img {
+    width: auto;
+    height: 3.5em;
+}
+
+.download-cta > * {
+    float: left;
+}
+
+.download-cta a.link {
+    margin-top: 1em;
+    font-family: 'Rubik';
+}
+
+span.or {
+    text-transform: uppercase;
+    padding: 0 1.5em;
+    margin-top: 1.8em;
+    font-size: 11px;
+    display: inline-block;
+    height: inherit;
+    color: #979797;
+}
+
+.learn-more {
+    text-align: center!important;
+    font-family: 'Rubik';
+    color: #fff;
+}
+
+.learn-more:hover {
+    border-bottom: none;
+}
+
+.learn-more:hover .scroll-down {
+    color: #fedd00!important;
+}
+
+
+/*-------------------------------------------------------------*/
+
+
+/*===========================================*/
+
+
+/*                     3. Container & Spacing Styles                         */
+
+
+/*===========================================*/
+
+
+/*-------------------------------------------------------------*/
+
+
+/*===========================================*/
+
+
+/*  3.1 Container Styles  */
+
+
+/*===========================================*/
+
+.container-full {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.container-medium {
+    width: 78%;
+    margin: 0 auto;
+}
+
+
+/*===========================================*/
+
+
+/*  3.2 Spacing Styles  */
+
+
+/*===========================================*/
+
+section {
+    margin-top: 4.206em;
+    margin-bottom: 4.206em;
+    display: inline-block !important;
+    width: 100%;
+}
+
+.inner-space {
+    margin-top: 5em;
+}
+
+
+/*-------------------------------------------------------------*/
+
+
+/*===========================================*/
+
+
+/*                               4. Helper Styles                                            */
+
+
+/*===========================================*/
+
+
+/*-------------------------------------------------------------*/
+
+.m-xlarge-top {
+    margin-top: 9.412em;
+}
+
+.m-xlarge-bottom {
+    margin-bottom: 9.412em;
+}
+
+.m-large-top {
+    margin-top: 6.471em;
+}
+
+.m-large-bottom {
+    margin-bottom: 6.471em;
+}
+
+.m-medium-top {
+    margin-top: 2em;
+}
+
+.m-medium-bottom {
+    margin-bottom: 4em;
+}
+
+.m-small-top {
+    margin-top: 2em;
+}
+
+.m-small-bottom {
+    margin-bottom: 2.941em;
+}
+
+.m-xsmall-top {
+    margin-top: 1.75em;
+}
+
+.m-xsmall-bottom {
+    margin-bottom: 1.75em;
+}
+
+.m-top-none {
+    margin-top: 0 !important;
+}
+
+.m-bottom-none {
+    margin-bottom: 0 !important;
+}
+
+.m-none {
+    margin: 0 !important;
+}
+
+.table {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.table-cell {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.p-none {
+    padding: 0 !important;
+}
+
+.p-none-left {
+    padding-left: 0 !important;
+}
+
+.p-none-right {
+    padding-right: 0 !important;
+}
+
+.align-right {
+    margin-right: 0;
+    margin-left: auto;
+}
+
+.align-center {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.align-left {
+    margin-right: auto;
+    margin-left: 0;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.cb {
+    clear: both;
+}
+
+
+/*-------------------------------------------------------------*/
+
+
+/*===========================================*/
+
+
+/*                                               5. Forms                                          */
+
+
+/*===========================================*/
+
+
+/*-------------------------------------------------------------*/
+
+form.shadow {
+    background-color: #ffffff;
+    box-shadow: 0px 0px 62px 0px rgba(0, 0, 0, 0.08);
+    padding: 3em 2em;
+    display: inline-block;
+}
+
+form.box {
+    padding: 3em 2em;
+    display: inline-block;
+}
+
+input,
+button.primary,
+textarea {
+    max-width: 25em;
+    background-color: #f8f8f8;
+    outline: none;
+    padding: 0.9em 0 0.9em 1.5em;
+    font-size: 0.941em;
+    color: #4f4f4f;
+    float: left;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    border: 2px solid #f8f8f8;
+}
+
+input:focus,
+button.primary:focus,
+textarea:focus {
+    border: 2px solid #238bf6;
+}
+
+.checkbox {
+    display: inline-block;
+}
+
+.checkbox input[type="checkbox"] {
+    width: auto;
+    margin-right: 1em;
+    margin-top: .3em !important;
+}
+
+.checkbox label {
+    font-size: 14px;
+    color: #979797;
+}
+
+button.primary {
+    padding-left: 0;
+    text-align: center;
+    display: block;
+    background-color: #238bf6;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: .3em;
+    font-weight: 500;
+    margin-top: 2em;
+    border: 2px solid #238bf6;
+}
+
+textarea {
+    width: 100% !important;
+    max-width: 100%;
+    min-height: 15em;
+}
+
+
+/*===========================================*/
+
+
+/*  5.1 Subcribe  */
+
+
+/*===========================================*/
+
+form.subscribe input,
+form.subscribe button.primary {
+    width: -webkit-calc(46% - 4px);
+    width: calc(46% - 4px);
+    margin-left: 8%;
+}
+
+form.subscribe input:first-child,
+form.subscribe button.primary:first-child {
+    margin-left: 0;
+}
+
+
+/*-------------------------------------------------------------*/
+
+
+/*  5.1.1 Single Line   */
+
+
+/*-------------------------------------------------------------*/
+
+form.subscribe.inline input,
+form.subscribe.inline button.primary {
+    width: 30%;
+    margin-left: 3.3333333%;
+}
+
+form.subscribe.inline input:first-child,
+form.subscribe.inline button.primary:first-child {
+    margin-left: 0;
+}
+
+form.subscribe.inline button.primary {
+    margin-top: 0;
+}
+
+button.primary.center {
+    margin-left: 27% !important;
+}
+
+
+/*===========================================*/
+
+
+/*  5.2 Transparent   */
+
+
+/*===========================================*/
+
+form.transparent input,
+form.transparent button.primary {
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 0;
+    color: #ffffff;
+}
+
+form.transparent input:focus,
+form.transparent button.primary:focus {
+    background-color: rgba(255, 255, 255, 0.3);
+    border: 0;
+}
+
+form.transparent button.primary {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+form.transparent button.primary:hover {
+    background-color: rgba(255, 255, 255, 0.35);
+}
+
+form.transparent::-webkit-input-placeholder {
+    color: #ffffff;
+}
+
+form.transparent:-moz-placeholder {
+    color: #ffffff;
+}
+
+form.transparent:-ms-input-placeholder {
+    color: #ffffff;
+}
+
