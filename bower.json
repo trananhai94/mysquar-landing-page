@@ -1,0 +1,22 @@
+{
+  "name": "MySQUAR-landing-page",
+  "description": "All landing pages at MySQUAR",
+  "main": "index.js",
+  "authors": [
+    "Hai Tran <trananhai1994@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
+
