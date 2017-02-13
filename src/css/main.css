@@ -277,13 +277,13 @@ span.close-button {
 }
 
 .social-icon {
-    margin-left: 28%;
+    margin-left: 44%;
 }
 
 .social-icon li {
     list-style: none;
     float: left;
-    padding-left: 30%;
+    padding-left: 10%;
     margin-top: 5%;
 }
 
@@ -920,7 +920,8 @@ footer.transparent .scroll-top a:hover {
 
 .horizontal-mockup {
     margin-top: 40px;
-    width: 110%
+    width: 110%;
+    margin-left: -25px;
 }
 
 
@@ -945,10 +946,6 @@ footer.transparent .scroll-top a:hover {
 .google-play-download-icon {
     /*float: right;*/
     margin: auto;
-}
-
-#gp-img {
-    margin-top: 30px!important;
 }
 
 .apk-download-icon {

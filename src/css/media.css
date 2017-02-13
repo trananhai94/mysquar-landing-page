@@ -214,10 +214,10 @@
         margin-left: 20px;
     }
     .social-icon {
-        margin-left: 27%;
+        margin-left: 34%;
     }
     .social-icon li {
-        padding-left: 16%;
+        padding-left: 6%;
         margin-top: -3%;
         padding-bottom: 30px;
     }
@@ -332,7 +332,7 @@
         text-align: left;
     }
     .one-screen-mockup {
-        http: //beta-ui.mysquar.com/img/products/mychat.png    margin-left: 14%
+        margin-left: 14%
     }
     .mysocial-image {
         float: none!important;
@@ -340,6 +340,7 @@
     .horizontal-mockup {
         margin-top: 0;
         width: 100%;
+        margin-left: 0;
     }
     .google-play-download-icon img,
     .apk-download-icon img {
@@ -352,6 +353,7 @@
     }
     #gp-img {
         margin-top: 30px!important;
+        float: none!important;
     }
 }
 
@@ -565,10 +567,10 @@
         margin-left: 20px;
     }
     .social-icon {
-        margin-left: 22%;
+        margin-left: 29%;
     }
     .social-icon li {
-        padding-left: 18%;
+        padding-left: 8%;
         margin-top: -4%;
         padding-bottom: 30px;
     }
@@ -696,6 +698,7 @@
     .horizontal-mockup {
         margin-top: 0;
         width: 100%;
+        margin-left: 0;
     }
     .download-button-game {
         margin-bottom: 30px;
@@ -711,6 +714,7 @@
     }
     #gp-img {
         margin-top: 30px!important;
+        float: none!important;
     }
 }
 
@@ -910,10 +914,10 @@
         margin-left: 20px;
     }
     .social-icon {
-        margin-left: 18%;
+        margin-left: 23%;
     }
     .social-icon li {
-        padding-left: 18%;
+        padding-left: 7%;
         margin-top: -5%;
         padding-bottom: 30px;
     }
@@ -1011,6 +1015,7 @@
     }
     #gp-img {
         margin-top: 30px!important;
+        float: none!important;
     }
     /*===========================================*/
     /*  MYAPPS  */
@@ -1046,7 +1051,8 @@
     }
     .horizontal-mockup {
         margin-top: 0;
-        width: 100%
+        width: 100%;
+        margin-left: 0;
     }
     .download-button-game {
         font-size: 20px;
